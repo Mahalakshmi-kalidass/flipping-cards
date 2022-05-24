@@ -1,0 +1,129 @@
+body{
+ /* flex-basis:150px; */
+ /* flex-shrink:1; */
+ background: lavender;
+}
+.h1{
+  text-align:center;
+  width:350px;
+  margin:auto;
+  margin-top:50px;
+  font-family: 'Dancing Script', cursive;
+  font-size:50px;
+  border:1px solid black;
+  border-radius: 5px;
+  padding:10px;
+  color: white;
+  background: linear-gradient(to right bottom,rgb(145, 71, 189),rgb(69, 30, 92))
+
+}
+.container{
+ 
+  //border:1px solid black;
+  width:100%;
+  height: 100%;
+  padding:30px;
+  display :flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+  margin:auto;
+  margin-top:75px;
+  margin-bottom:150px;
+  
+
+}
+.wrapper{
+  position: relative;
+  margin:30px;
+  width: 350px;
+  height:250px;
+  
+ // background-color:yellowgreen;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+}
+.front{
+  border-radius: 10px;
+  z-index:100;
+  position: absolute;
+  padding:10px;
+  width: 100%;
+  height: 100%;
+  color:white;
+  font-size:30px;
+  font-family: 'Dancing Script', cursive;
+  backface-visibility: hidden;
+  text-align:center;
+  background: linear-gradient(to bottom right,rgb(145, 71, 189),rgb(69, 30, 92));
+  //flex:1 2 auto;
+}
+
+.img{
+  width:200px;
+  height:150px;  
+  border:2px solid white;
+  border-radius:50%;
+  margin:20px;
+  
+}
+.img1{
+  background-image: url(panda.png);
+  background-size:100% 100%;
+}
+.img2{
+  background-image: url(dolphin.jpg);
+  background-size:100% 100%;
+}
+.img3{
+  background-image: url(bee.jpg);
+  background-size:100% 100%;
+}
+.img4{
+  background-image: url(seahorse.jpg);
+  background-size:100% 100%;
+}
+.img5{
+  background-image: url(rab.jpg);
+  background-size:100% 100%;
+}
+.img6{
+  background-image: url(Kingfisher.jpg);
+  background-size:100% 100%;
+}
+hr{
+  width:150px;
+  border:1px solid rgb(219, 207, 207);
+  margin:auto;
+}
+h3{
+  margin:0;
+}
+.back p {
+  margin:10px;
+}
+.back{
+  border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  height:100%;
+  font-family: 'Dancing Script', cursive;
+  font-size:25px;
+  transform: rotateY(180deg);
+  background: linear-gradient(to bottom right,rgb(145, 71, 189),rgb(69, 30, 92));
+  color:white;
+  text-align:center;
+  padding:10px;
+ 
+
+}
+ .h3 {
+  font-size:35px;
+
+
+}
+.wrapper:hover{
+  transform: rotateY(180deg);
+}
+.section{
+  margin:10px;
+}
